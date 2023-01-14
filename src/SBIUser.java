@@ -78,7 +78,7 @@ public class SBIUser implements BankInterface {
                 return "The amount is more than the balance in your account";
             } else {
                 balance = balance - amount;
-                return " Take your " + amount + " money";
+                return " The withdrawn amount is " + amount + " Rs.";
             }
         } else {
             return "Wrong password";

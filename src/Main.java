@@ -24,6 +24,6 @@ public class Main {
         System.out.println(user.withdrawMoney(money,pass));
 
         //rate of interest
-        System.out.println(user.calculateInterest(10));
+        System.out.println("The interest for 10 years on remaining balance will be " + user.calculateInterest(10));
     }
 }
